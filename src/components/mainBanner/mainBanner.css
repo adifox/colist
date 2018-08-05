@@ -1,0 +1,41 @@
+.MainBanner {
+  right: 0;
+  left: 0;
+  top: 0;
+  width: auto;
+  min-height: 550px;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(rgb(24, 100, 186) 24%, rgb(19, 82, 154) 168%);
+  background-position: 0 100%;
+}
+.MainBannerContent {
+  margin-top: 80px;
+  width: 100%;
+  max-height: 450px;
+}
+.MainTitle {
+  padding-top: 30px;
+}
+@media only screen and (max-width: 990px) {
+  .MainBannerContent {
+    text-align: center;
+  }
+}
+.MainBannerContent h1 {
+  font-weight: bold;
+  padding: 20px 0;
+}
+.BannerPic {
+  max-height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.BannerPic img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.Red {
+  color: red;
+}

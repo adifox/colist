@@ -1,0 +1,27 @@
+.NavigationTransparent {
+  background-color: #1864BA;
+  z-index: 2;
+  border-radius: 0 !important;
+  border-color: transparent !important;
+  font-size: 18px;
+  margin: 0;
+}
+.NavigationTransparent a {
+  color: #fff !important;
+}
+.NavigationTransparent button {
+  border: none;
+  background: transparent;
+}
+.NavigationTransparent button:hover {
+  border: 1px solid white;
+  border-radius: 2px;
+}
+.Brand {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* #83309D */
+/* #8D3BA5 */
+/* #8C3FA3 */
