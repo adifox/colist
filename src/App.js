@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 
 import Layout from './components/layout';
-// import MainContainer from './components/mainContainer';
-import HomeComponent  from './components/homeContainer';
+import Container from './components/container';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Layout>
-          <HomeComponent />
+          <Container />
         </Layout>
       </div>
     );

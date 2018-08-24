@@ -20,7 +20,8 @@ class form extends Component {
     }
   }
   
-  sendForm() {
+  sendForm(e) {
+    e.preventDefault()
     console.log('The data to send', this.state)
   }
 
@@ -67,7 +68,7 @@ class form extends Component {
 
         <FormGroup className={ classes.submitButton }>
           <Col smOffset={ 2 } sm={ 10 }>
-            <button onClick={ () => this.sendForm() } >Adelante</button>
+            <button onClick={ (e) => this.sendForm(e) } >Adelante</button>
           </Col>
         </FormGroup>
       </Form>
